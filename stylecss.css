@@ -1,0 +1,147 @@
+ body{
+     background-color: rgb(12 35 35);
+ }
+
+ nav{
+     display: inline-block;
+     margin-top: -20px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+ }
+
+ ul{
+     display: inline-block;
+     margin-left: -25px;
+ }
+
+ h4,
+ li{
+     display: inline-block;
+ }
+
+ .merry{
+     text-decoration: none;
+     color: rgb(228, 85, 85);
+     font-size: 25px;
+     font-style: oblique;
+     display: inline-block;
+     font-weight: bold;
+ }
+
+ .christ{
+     text-decoration: none;
+     color: springgreen;
+     font-size: 20px;
+     font-style: oblique;
+     display: inline-block;
+     margin-left: 40px;
+     font-weight: bold;
+ }
+      
+ .nim{
+     display: flex;
+     justify-content: center;
+     margin-left: 50px;
+     margin-top: 40px;
+ }
+
+ .nim div{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background-color: springgreen; 
+    animation-name: animation;
+    animation-duration: 0.9s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.anim2 {
+    animation-delay: 0.3s;
+}
+
+.anim3 {
+    animation-delay: 0.6s;
+}
+
+@keyframes animation {
+    to {
+        opacity: 0.2;
+        transform: translateY(-20px);
+    }
+}
+
+.year{
+    color: springgreen;
+    font-style: oblique;
+    font-weight: bold;
+    padding-left: 220px;
+    font-size: 150px;
+    margin-top: -50px;
+}
+
+.pn{
+    background-image: url(f681d677949f0bb80e3363b0ddcbc3e8.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: -440px;
+    cursor: pointer;
+}
+
+.text{
+    width: 300px;
+    height: 600px;
+}
+
+.photo{
+    background-image: url(514-5141559_large-transparent-png-christmas-tree-with-gifts-png.png);
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    margin-left: 60px;
+    animation-name: Animation ;
+}
+
+.h{
+    color: rgb(228, 85, 85) ;
+    font-size: larger;
+    padding-left: 60px;
+}
+
+.happy{
+    color: rgb(228, 85, 85);
+    font-size: larger;
+    padding-left: 30px;
+    margin-top: -5px;
+}
+
+.jo{
+    margin-left: 620px;
+    margin-top: -450px;
+    position: absolute;
+    visibility: hidden;
+    animation-name: Animation;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Animation {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+.one{
+    height: 100vh;
+}
+
+ 
